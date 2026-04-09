@@ -26,7 +26,7 @@ class QATConfig:
     beta: float = 2.6
     dual_lr: float = 5e-5
     lambda_init: float = 1
-    lambda_max: Optional[float] = 3.5
+    lambda_max: Optional[float] = 30
 
     # PI controller for lambda
 #    lambda_use_pi: bool = True
