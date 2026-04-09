@@ -19,7 +19,7 @@ class QATConfig:
     exclude_substrings: Tuple[str, ...] = ("bias", "norm", "ln_", "wte", "wpe", "lm_head")
 
 
-    dist_scale: float = 10
+    dist_scale: float = 10 #when adamfx =15
 
     # ---- Lagrange constraint: lambda*(f - beta) ----
     use_lagrange: bool = True
