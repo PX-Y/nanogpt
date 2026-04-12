@@ -40,7 +40,7 @@ log_interval = 20
 eval_iters = 50
 eval_only = False # if True, script exits right after the first eval
 always_save_checkpoint = True # if True, always save a checkpoint after each eval
-init_from = 'gpt2-large' # 'scratch' or 'resume' or 'gpt2*'
+init_from = 'gpt2-xl' # 'scratch' or 'resume' or 'gpt2*'
 # wandb logging
 wandb_log = False # disabled by default
 wandb_project = 'owt'
